@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.imgTool{
+    height: 7rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+
+
+.tools{
+    display: flex;
+    justify-content: center; 
+    gap: 1rem;
+}
+
+.toolOptions{
+    display: flex;
+    gap: 1rem;
+}
+
+.sticky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    position:absolute;
+    top: 0;
+    padding: auto;
+   
+}
+
+.nav{
+    background-color:blueviolet;
+    align-items: end;
+    /* height: 10rem; */
+    /* border:2px solid black; */
+}
+
+
+.textarea{
+     height:20rem; 
+     background-color: rgb(219, 205, 75);
+     border: 5px solid black;
+}
+
+.upload{
+display: none;
+}
